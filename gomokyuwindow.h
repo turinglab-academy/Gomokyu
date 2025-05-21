@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QTimer>
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class GomokyuWindow;
@@ -14,6 +15,7 @@ QT_END_NAMESPACE
 class GomokyuWindow : public QMainWindow
 {
     Q_OBJECT
+
 
 public:
     GomokyuWindow(QWidget *parent = nullptr);

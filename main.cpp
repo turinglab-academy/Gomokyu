@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    GomokyuWindow w;
+    QApplication app(argc, argv);
+    GomokyuWindow wndMain;
 
-    w.setWindowTitle("온라인 오목");
-    w.show();
-    return a.exec();
+    wndMain.setWindowTitle("온라인 오목");
+    wndMain.show();
+    return app.exec();
 }
